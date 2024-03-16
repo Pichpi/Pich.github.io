@@ -1,0 +1,151 @@
+
+.navbar{
+    z-index: 5;	
+}
+.nav-item{
+    margin: 0 10px;
+    position: relative;
+}
+.nav-link{
+    font-size: 20px !important;
+    color: white !important;
+}
+main .container-fluid{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.navbar-brand img{
+    width: 180px !important;
+}
+.text{
+    left: 40px;
+    top: 50vh;
+}
+.text p{
+    font-size: 20px;
+}
+main .c{
+    margin-bottom: 25px !important;
+}
+main .c .card{
+    margin-bottom: 30px !important;
+    padding: 0 !important;
+}
+main .c .row{
+    /* display: flex !important; */
+    flex: wrap !important;
+    padding: 0 auto !important;
+}
+.dropdata{
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 14px 30px;
+    border-radius: 20px;
+    display: none;
+}
+.dropdata li{
+    margin: 20px 0;
+}
+.dropdata li a{
+    display: flex;
+    margin-bottom: 34px;
+    text-decoration: none;
+    align-items: center;
+}
+.dropdata li a h3{
+    margin-right: 28px;
+    font-size: 20px;
+    position: relative;
+}
+.dropdata li a h3::before{
+    content:'';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -17px;
+    left: -20px;
+    background-repeat: no-repeat;
+    background: url(./Image_Bootsrap/ico-grammar.webp);
+}
+.dropdata li a span{
+    font-size: 19px;
+}
+.nav-item:hover .dropdata{
+    display: block;
+}
+.ad1 a,.ad2 a{
+    text-decoration: none;
+    color: white;
+}
+.ad1 a:hover,.ad2 a:hover{
+    color: greenyellow;
+}
+.s1,.s2{
+    margin: 30px 3px !important;
+    padding: 0 7px !important;
+    border: none;
+    border-right: 1px solid white;
+}
+.s2 a{
+    text-decoration: none;
+    color: rgb(102, 99, 99);
+}
+.s3{
+    margin: 30px 10px !important;
+    border: none;
+}
+.s2 a:hover{
+    color: greenyellow;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .nav-link{
+        text-align: center;
+    }
+
+ }
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .nav-link{
+        font-size: 12px !important;
+    }
+    main .container-fluid img{
+        width: 100% !important;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .nav-link{
+        font-size: 14px !important;
+    }
+    main .container-fluid img{
+        width: 100% !important;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .nav-link{
+        font-size: 18px !important;
+    }
+    main .container-fluid img{
+        width: 100% !important;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .nav-link{
+        font-size: 20px !important;
+    }
+    main .container-fluid img{
+        width: 100% !important;
+    }
+ }
